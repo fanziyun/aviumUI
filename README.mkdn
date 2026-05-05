@@ -71,7 +71,7 @@ Please add these configs to lineage_xxx.mk, device.mk or equivalent Makefile.
 . build/envsetup.sh
 
 # Choose a target
-lunch lineage_$device-bp4a-userdebug
+lunch lineage_vermeer-bp4a-userdebug
 
 # To build
 m bacon -j$(nproc --all)
