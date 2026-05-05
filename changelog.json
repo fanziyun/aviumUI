@@ -1,1 +1,13 @@
-{"response":[]}
+{
+  "16.2.1": {
+    "date": "2026-05-05",
+    "device": "vermeer",
+    "version": "16.2.1",
+    "changes": [
+      "预装 GMS (Google Mobile Services)",
+      "AviumUI 自定义主题与图标",
+      "初始构建",
+      "OTA 在线更新支持"
+    ]
+  }
+}
