@@ -25,6 +25,9 @@ repo init -u https://github.com/AviumUI/android_manifests -b avium-16.2 --git-lf
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+
+# Prepare the device-specific code
+breakfast vermeer
 ```
 ### To Start ###
 We are fully compatible with the Lineage device tree. You can directly sync the Lineage device applicable to this device. We provide some special configs:
@@ -72,9 +75,6 @@ Please add these configs to lineage_xxx.mk, device.mk or equivalent Makefile.
 
 # Choose a target
 lunch lineage_vermeer-bp4a-userdebug
-
-#Prepare the device-specific code
-breakfast vermeer
 
 # To build
 m bacon -j$(nproc --all)
