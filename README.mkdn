@@ -73,6 +73,9 @@ Please add these configs to lineage_xxx.mk, device.mk or equivalent Makefile.
 # Choose a target
 lunch lineage_vermeer-bp4a-userdebug
 
+#Prepare the device-specific code
+breakfast vermeer
+
 # To build
 m bacon -j$(nproc --all)
 ```
