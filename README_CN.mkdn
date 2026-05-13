@@ -24,6 +24,9 @@ repo init -u https://github.com/AviumUI/android_manifests -b avium-16.2 --git-lf
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+
+# Prepare the device-specific code
+breakfast vermeer
 ```
 
 ### To Start ###
